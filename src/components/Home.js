@@ -1,12 +1,11 @@
-import React from "react";
-import { username, city } from "../data/user"; // go up one level and into data
 
-function Home() {
+import React from "react";
+
+function NavBar() {
   return (
-    <div id="home">
-      <h1>{username} is a Web Developer from  {city}</h1>
-    </div>
+    <nav>
+      <a href="#home">I'm a link!</a>
+    </nav>
   );
 }
-
-export default Home; // ✅ default export
+export default NavBar
