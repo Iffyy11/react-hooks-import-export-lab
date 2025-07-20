@@ -1,11 +1,13 @@
+import { username, city } from "../data/user";
 
-import React from "react";
-
-function NavBar() {
+function Home() {
   return (
-    <nav>
-      <a href="#home">I'm a link!</a>
-    </nav>
+    <div id="home">
+      <h1>
+        {username} is a Web Developer from {city}
+      </h1>
+    </div>
   );
 }
-export default NavBar
+
+export default Home;
